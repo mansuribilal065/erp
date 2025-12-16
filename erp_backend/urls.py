@@ -24,3 +24,7 @@ urlpatterns = [
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 ]
+
+
+#"refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc2NTk2NTYwMSwiaWF0IjoxNzY1ODc5MjAxLCJqdGkiOiIzMjc4NTgxOTg3MTY0OWZlODVhZWMwYzA2YzBlOTJiOSIsInVzZXJfaWQiOiIxIn0.twBCubc-cvpKgXvRY2qnYHCaLXBteLiTznUL_f54igM",
+    #"access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzY1ODc5NTAxLCJpYXQiOjE3NjU4NzkyMDEsImp0aSI6IjY3NDFiYWQyY2YwYTRmMDViNDU2YjlmNGRhN2FjNmQ3IiwidXNlcl9pZCI6IjEifQ.0KQpL37niHbnlBzhuSzU1iwwxWmNqun_NpHmwLCzNFg"
